@@ -1,8 +1,6 @@
 const API_BASE = 'http://localhost:3000';
 
-// ─────────────────────────────────────────────────────────────
-//  REGISTRO
-// ─────────────────────────────────────────────────────────────
+
 export async function registerUser(email, password) {
   try {
     const response = await fetch(`${API_BASE}/api/register`, {
@@ -20,9 +18,6 @@ export async function registerUser(email, password) {
   }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  LOGIN  — devuelve token + user para el AuthContext
-// ─────────────────────────────────────────────────────────────
 export async function loginUser(email, password) {
   try {
     const response = await fetch(`${API_BASE}/api/login`, {
@@ -40,9 +35,6 @@ export async function loginUser(email, password) {
   }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  LLAMADA AUTENTICADA  — para rutas protegidas
-// ─────────────────────────────────────────────────────────────
 export async function fetchProtected(endpoint) {
   const token = localStorage.getItem('authToken');
   const response = await fetch(`${API_BASE}${endpoint}`, {
