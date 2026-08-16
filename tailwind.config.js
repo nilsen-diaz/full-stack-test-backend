@@ -1,3 +1,5 @@
+import animationpack from 'tailwind-animationpack'   // ← import (fix)
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
@@ -119,5 +121,5 @@ export default {
       },
     }
   },
- // plugins: [require('tailwind-animationpack')],
+  plugins: [animationpack],  
 }
