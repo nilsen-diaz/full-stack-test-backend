@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1786856882315,
+    "email": "nilsen@example.com",
+    "password": "$2a$10$TCM/z3RCx9kI8et7SGreZOG//Lk.eQB6ngarZR10oD.l1XI0oXFJu",
+    "creadoEn": "2026-08-16T05:08:02.315Z"
+  },
+  {
+    "id": 1786861115233,
+    "email": "demo@test.com",
+    "password": "$2a$10$UE/eU.ILbdnzkHDAo62UW.mlVIpYc4lU3oskLdUOerglEngBMxnaC",
+    "creadoEn": "2026-08-16T06:18:35.233Z"
+  }
+]
