@@ -119,5 +119,5 @@ export default {
       },
     }
   },
-  plugins: [require('tailwind-animationpack')],
+ // plugins: [require('tailwind-animationpack')],
 }
